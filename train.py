@@ -6,7 +6,7 @@ from tensorflow.keras.layers import Input, Embedding, LSTM, Dense, Attention, Co
 from tensorflow.keras.preprocessing.text import Tokenizer
 from tensorflow.keras.preprocessing.sequence import pad_sequences
 
-df = pd.read_csv('seu_dataset.csv')
+df = pd.read_csv('dataset.csv')
 
 train_data, test_data = train_test_split(df, test_size=0.2, random_state=42)
 
